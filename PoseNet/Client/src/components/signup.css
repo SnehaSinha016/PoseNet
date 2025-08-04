@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Rustic Roadway';
+    src: url(/RusticRoadway.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+.clip-triangle {
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+@font-face {
+  font-family: Whispering;
+  src: url(/Whispering.ttf) format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
