@@ -28,7 +28,6 @@
 - p5.js + ml5.js (PoseNet)
 - Tailwind CSS
 - Axios (API communication)
-- Recharts (for dashboard)
 
 **Backend**
 - Node.js + Express.js
@@ -138,7 +137,7 @@ VITE_API_BASE=http://localhost:3001
 ##  Deployment
 
 Frontend: [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/)  
-Backend: [Render](https://render.com/) / [Railway](https://railway.app/) / [Heroku](https://www.heroku.com/)  
+Backend: [Render](https://render.com/) / [Railway](https://railway.app/) / [Heroku](https://www.heroku.com/) 
 Database: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 
