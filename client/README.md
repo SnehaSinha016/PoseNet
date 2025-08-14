@@ -1,12 +1,92 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# PoseNet AI Posture Detection (Frontend)
 
-Currently, two official plugins are available:
+This is the frontend of the **PoseNet AI Posture Detection** project built using **React**, **Tailwind CSS**, and **Bootstrap**. It leverages the **PoseNet model** via `ml5.js` or compatible tools to analyze and detect human posture in real time using the webcam feed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+- Real-time webcam-based posture detection
+- Clean and responsive UI with Tailwind and Bootstrap
+- Login and Signup forms
+- Routing with `react-router-dom`
+- Form validation with `react-hook-form`
+- Scrollbar customization using `tailwind-scrollbar`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- **React 19**
+- **Tailwind CSS**
+- **Bootstrap**
+- **Vite** (for blazing fast development)
+- **React Router v7**
+- **React Hook Form**
+- **PoseNet (ml5.js or TensorFlow.js backend)**
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/PoseNet-main.git
+cd PoseNet-main
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Locally
+
+```bash
+npm run dev
+```
+
+This will start the development server at `http://localhost:5173` (or as specified in your terminal).
+
+## 🛠 Folder Structure
+
+```
+PoseNet-main/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+├── public/
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+├── package.json
+```
+
+##  Build for Production
+
+```bash
+npm run build
+```
+
+##  Authentication
+
+Currently, static forms are implemented for **login** and **signup**. Form handling is managed via `react-hook-form`. Backend integration is planned.
+
+##  Backend (Coming Soon)
+
+We are working on integrating a backend that will handle:
+
+- User authentication
+- Pose classification analytics
+- Real-time feedback and session history
+
+Stay tuned for updates!
+
+##  Screenshot
+
+> Add a screenshot here if needed
+
+##  License
+
+MIT License © 2025 [Your Name or Team]
+
