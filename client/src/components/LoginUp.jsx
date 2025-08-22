@@ -56,7 +56,7 @@ const LoginUp = () => {
           />
           <button
             type="submit"
-            className="w-[100px] h-[30px]  text-5xl bg-gradient-to-r from-blue-600 to-blue-300 text-white py-2 font-semibold hover:bg-blue-600 rounded-3xl ml-[38%%]"
+            className="w-[100px] h-[30px]  text-xl bg-gradient-to-r from-blue-600 to-blue-300 text-white py-2 font-semibold hover:bg-blue-600 rounded-2xl ml-[35%] pt-1"
             onClick={navigate('/Home')}>
             Log in
           </button>

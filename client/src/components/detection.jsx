@@ -26,9 +26,9 @@ const Detection = () => {
 
     const sketch = (p) => {
       p.setup = () => {
-        p.createCanvas(960,720).parent(canvasRef.current);
+        p.createCanvas(320,320).parent(canvasRef.current);
         capture = p.createCapture(p.VIDEO);
-        capture.size(960, 720);
+        capture.size(320, 320);
         capture.hide();
 
         poseNet = ml5.poseNet(capture, () => console.log("Model Loaded"));
@@ -125,16 +125,16 @@ const Detection = () => {
 
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center">
-      <h1 className="text-7xl font-bold mb-4 text-gray-800">Posture Detector</h1>
+      <h1 className="text-4xl font-bold mb-4 text-gray-800">Posture Detector</h1>
       <div className="bg-gray-100 shadow-lg rounded-lg p-4">
         <div ref={canvasRef}></div>
         <p className="text-5xl text-center mt-3 font-semibold text-gray-700">
           Posture: <span className="text-blue-600">{posture}</span>
         </p>
       </div>
-      <div className="bg-gray-100 mt-2 w-[1008px] shadow-lg rounded-lg p-4">
-      <p className="p-1 text-5xl font-bold items-center justify-center align-center">Suggestions:</p>
-      <p className="text-3xl mt-4 text-center text-gray-800 font-medium">
+      <div className="bg-gray-100 mt-2 w-[370px] shadow-lg rounded-lg p-4">
+      <p className="p-1 text-3xl font-bold items-center justify-center align-center">Suggestions:</p>
+      <p className="text-2xl mt-4 text-center text-gray-800 font-medium">
     {getSuggestion()}
   </p>
   <button
