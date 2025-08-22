@@ -10,7 +10,7 @@
 - **Real-Time Posture Detection** – Uses PoseNet to estimate body keypoints from live webcam feed.
 - **Posture Classification** – Heuristic rules (angles & distances) classify Good/Slouching/Leaning.
 - **Visual Overlay** – Draws skeleton and keypoints over live video for feedback.
-- **User Authentication** – Signup/Login with secure password hashing using bcrypt.
+- **User Authentication** – Signup/Login with secure password hashing using bcrypt.(coming soon)
 - **Full-Stack Integration** – React/Vite frontend, Express.js backend, MongoDB database.
 
 ###  Planned Enhancements
@@ -32,7 +32,6 @@
 **Backend**
 - Node.js + Express.js
 - MongoDB + Mongoose
-- bcrypt (password hashing)
 - dotenv (environment configuration)
 - CORS enabled API
 
@@ -128,17 +127,9 @@ VITE_API_BASE=http://localhost:3001
 
 ---
 
-##  Screenshots
 
-(*Add screenshots or GIFs here once deployed*)
 
----
 
-##  Deployment
-
-Frontend: [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/)  
-Backend: [Render](https://render.com/) / [Railway](https://railway.app/) / [Heroku](https://www.heroku.com/) 
-Database: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 
 
