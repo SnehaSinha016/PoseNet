@@ -3,7 +3,7 @@ import './signup.css'
 
 const blog = () => {
   return (
-    <div className="h-[700px] mt-[200px] ml-[20px] w-[600px] overflow-y-scroll custom-scroll  text-spacing-5 p-4 rounded-2xl shadow-lg text-gray-900 font-Inter ">
+    <div className="h-[500px] mt-[10%] ml-[20px] w-[600px] overflow-y-scroll custom-scroll  text-spacing-5 p-4 rounded-2xl shadow-lg text-gray-900 font-Inter ">
        <h1 className="text-3xl font-bold mb-6 font-classic font-serif leading-snug">Straighten Up with AI: Why Posture Detection Matters in the Digital Age?</h1>
        <div className="bg-blue-100 p-10 mt-5 mb-5  rounded-xl shadow-md">
    <p className="mb-6 text-2xl">
