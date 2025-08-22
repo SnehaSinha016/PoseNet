@@ -19,7 +19,7 @@ const LoginUp = () => {
       email:Email,
     }).then(result=>{
          console.log(result)
-         if(result.data==="success"){
+         if(result.data==="Success"){
              navigate('/Home')
          }
         else{
