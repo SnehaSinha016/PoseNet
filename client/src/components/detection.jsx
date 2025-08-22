@@ -1,8 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
+import home from '../pages/home';
+import { useNavigate } from "react-router-dom";
 const Detection = () => {
   const canvasRef = useRef();
   const [posture, setPosture] = useState("Analyzing...");
+  const navigate=useNavigate();
    const getSuggestion=()=>{
+    
       if(posture==="Good"){
         return "Keep sitting upright with your back straight and shoulders relaxed.";
       }
@@ -137,7 +141,7 @@ const Detection = () => {
   className="absolute top-4 left-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
   onClick={() => navigate('/Home')}
 >
-  ← Back
+  Back
 </button>
       </div>
     </div>
