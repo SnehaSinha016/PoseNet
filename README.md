@@ -126,6 +126,9 @@ VITE_API_BASE=http://localhost:3001
 - **History view** – 7-day and 30-day trends.
 
 ---
+## Deployment
+
+ - **Frontend** -https://pose-net-xsj1-git-main-snehasinha016s-projects.vercel.app/Home
 
 
 
