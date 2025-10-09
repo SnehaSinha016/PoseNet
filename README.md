@@ -128,7 +128,7 @@ VITE_API_BASE=http://localhost:3001
 ---
 ## Deployment
 
- - **Frontend** -https://pose-net-xsj1-git-main-snehasinha016s-projects.vercel.app/Home
+ - **Frontend** -[https://pose-net-xsj1-git-main-snehasinha016s-projects.vercel.app/Home](https://pose-net-xsj1-git-main-snehasinha016s-projects.vercel.app/)
 
 
 
